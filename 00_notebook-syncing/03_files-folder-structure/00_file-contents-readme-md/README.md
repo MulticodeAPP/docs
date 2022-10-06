@@ -19,7 +19,7 @@ https://multicode.app/n/<your_notebook_id>/sync/file/<your_file_id>
 
 Where:
 - `your_notebook_id` = Notebook ID
-- `your_file_id` = your unique ID for this file
+- `your_file_id` = your unique ID for this file (maximum of 64 characters)
 
 This link has two functions:
 - for you to quickly navigate to the file on Multicode

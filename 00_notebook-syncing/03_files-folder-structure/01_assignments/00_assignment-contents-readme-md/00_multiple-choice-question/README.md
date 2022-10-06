@@ -34,3 +34,5 @@ The answers for the question need to be specified in an `answers` folder adding 
 Answers may be ordered by using numbers in the file name.
 
 The answer file should contain Markdown content, detailing the answer. A file containing the/a correct answer should contain the word `correct` in the file name.
+
+The file name is also the identifier used for this multiple choice answer. It may be a maximum of 64 characters.

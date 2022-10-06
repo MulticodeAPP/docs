@@ -24,7 +24,7 @@ type: multiple_choice
 
 Where:
 - `your_notebook_id` = Notebook ID
-- `your_assignment_id` = your unique ID for this assignment
+- `your_assignment_id` = your unique ID for this assignment (maximum of 64 characters)
 
 This link has two functions:
 - for you to quickly navigate to the assignment on Multicode
