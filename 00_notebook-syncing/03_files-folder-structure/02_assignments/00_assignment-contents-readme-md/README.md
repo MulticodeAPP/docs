@@ -17,6 +17,9 @@ https://multicode.app/n/<your_notebook_id>/sync/assignment/<your_assignment_id>
 
 ```yaml
 type: multiple_choice
+
+# (optional) assignment settings
+due-date: 2022-01-01T23:59:59Z
 ```
 
 ... (optional) markdown content ...
@@ -29,3 +32,9 @@ Where:
 This link has two functions:
 - for you to quickly navigate to the assignment on Multicode
 - for Multicode to identify which assignment you are talking about
+
+Every assignment may have a due date. It may be set on the file containing the assignments, to set a default due date for all assignments at once. Or you can overwrite/set due dates on a per-assignment basis.
+
+The assignment due date has to be an ISO date string, like:
+- `2022-01-01T23:59:59Z` - `Z` = UTC time
+- `2022-01-01T23:59:59+01:00` - time with a `+1` hour offset
