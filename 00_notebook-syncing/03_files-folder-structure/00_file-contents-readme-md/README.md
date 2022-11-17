@@ -30,7 +30,7 @@ This link has two functions:
 - for you to quickly navigate to the file on Multicode
 - for Multicode to identify which file you are talking about
 
-If you have assignments belonging to this file, you could add a default assignment due date to all assignments to this file. The due date can also be overwritten on a per-assignment basis.
+If you have assignments belonging to this file, you could add a default assignment due date for all assignments. The due date can also be overwritten on a per-assignment basis.
 
 The `yaml | settings` code block specifies that this is about file settings. Only `settings` is required here, to specify it's about file settings, and `yaml` is used to allow for syntax highlighting when viewing the `README.md`.
 
