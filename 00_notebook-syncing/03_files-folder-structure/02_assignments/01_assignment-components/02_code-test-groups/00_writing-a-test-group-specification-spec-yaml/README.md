@@ -7,6 +7,8 @@ All fields at the root of this object are optional, but you must specify at leas
 - `required`, if all of these tests are required to complete the assignment
 - `include-types`, which statements must be used and within what `range` (optional, by default use a minimum of 1)
 - `blocked-types`, which statements may not be used
+- `stdin`, which standard input is used
+- `stdout`, which standard output needs to match to pass the test
 - `variables`, which variables must be inspected and compared with the expected values
 - `functions`, which functions need to be tested, and with which arguments and expected values
     - optionally a test for a function can be made private by setting `private: true`, the user will not know these tests are run beforehand, only after a private test fails only one will be made public
@@ -34,6 +36,15 @@ include-types:
 blocked-types:
   - type: for_loop
   - type: while_loop
+
+# standard input/output
+stdin: |-
+  10
+  25
+stdout: |-
+  35
+  250
+  19
 
 # assert the actual values of these variables match with the expected values
 variables:
