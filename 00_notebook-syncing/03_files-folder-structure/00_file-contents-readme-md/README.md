@@ -16,7 +16,8 @@ https://multicode.app/n/<your_notebook_id>/sync/file/<your_file_id>
 
 ```yaml | settings
 # (optional) file settings
-assignments-due-date: 2022-01-01T23:59:59Z
+assignments-due-date: 2022-02-01T23:59:59Z
+visible-date: 2022-01-01T00:00:00Z
 ```
 
 ... (optional) markdown content ...
